@@ -7,7 +7,7 @@ import { CgProfile } from "react-icons/cg";
 
 const Bottombar = () => {
     return (
-        <div className="flex justify-between items-center px-9 py-3 bg-[#000000]">
+        <div className="flex justify-between items-center px-9 py-3 bg-[#000000] border-t-[1px] border-[#1b1b1b]">
             <button>
                 <MdHomeFilled className="w-7 h-7" />
             </button>

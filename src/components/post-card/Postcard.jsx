@@ -4,7 +4,7 @@ import Image from "../../assets/images/image1.jpg";
 
 const Postcard = () => {
     return (
-        <div className="w-[450px] flex flex-col mx-auto ">
+        <div className="w-[450px] flex flex-col mx-auto py-8 border-b-[1px] border-[#1b1b1b]">
             <div>
                 <TopPoscard />
             </div>
