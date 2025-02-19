@@ -25,7 +25,7 @@ function App() {
                         <UserStories />
                     </div>
                     {/* Feed */}
-                    <div>
+                    <div className="p-2">
                         <Postcard />
                         <Postcard />
                         <Postcard />
