@@ -1,4 +1,5 @@
 import { FaInstagram } from "react-icons/fa6";
+import InstagramLetter from "../../assets/images/instagram-letter.png";
 import { MdHomeFilled } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
 import { FaRegCompass } from "react-icons/fa";
@@ -7,17 +8,17 @@ import { LuMessageCircleMore } from "react-icons/lu";
 import { CiHeart } from "react-icons/ci";
 import { CiSquarePlus } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
-
 import { FaThreads } from "react-icons/fa6";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Sidebar = () => {
     return (
-        <div className="h-screen fixed bg-[#000000] flex flex-col items-center justify-between p-3 border-r-[1px] border-[#1b1b1b] xl:w-[380px] xl:items-start">
+        <div className="h-screen fixed bg-[#000000] flex flex-col items-center justify-between p-3 border-r-[1px] border-[#1b1b1b] xl:w-[340px] xl:items-start">
             <div className="w-full flex flex-col justify-center items-start">
                 <div className="py-6">
-                    <button className="hover:bg-[#1b1b1b] p-3 rounded-lg">
-                        <FaInstagram className="w-7 h-7" />
+                    <button className="">
+                        <FaInstagram className="w-7 h-7 flex xl:hidden" />
+                        <img src={InstagramLetter} alt="instagram" className="hidden w-28 ml-3 xl:flex" />
                     </button>
                 </div>
                 <div className="w-full flex flex-col space-y-2 text-lg">

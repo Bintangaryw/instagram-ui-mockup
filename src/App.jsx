@@ -1,13 +1,14 @@
 import Bottombar from "./components/bottombar/Bottombar";
 import Navbar from "./components/navbar/Navbar";
 import Postcard from "./components/post-card/Postcard";
+import RightPanel from "./components/right-panel/RightPanel";
 import Sidebar from "./components/sidebar/Sidebar";
 import UserStories from "./components/user-stories/user-stories";
 
 function App() {
     return (
         <>
-            <div className="flex text-sm flex-col sm:flex-row  md:text-base">
+            <div className="flex text-sm flex-col sm:flex-row  md:text-sm">
                 {/* Navbar */}
                 <div className="sm:hidden">
                     <Navbar />
@@ -33,6 +34,11 @@ function App() {
                         <Postcard />
                         <Postcard />
                     </div>
+                </div>
+
+                {/* Right panel */}
+                <div className="hidden absolute 2xl:left-[70%] 2xl:flex">
+                    <RightPanel />
                 </div>
 
                 {/* Bottombar */}
